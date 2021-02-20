@@ -1,0 +1,102 @@
+body
+	{
+		font-family: 'ABeeZee',serif, Book Antiqua;
+
+	}
+.header
+{
+	padding: 20px;
+  overflow: hidden;
+  background-color:#6b011f;
+  color: white;
+}
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  
+  font-size: 20px;
+}
+
+.header li {
+  float: right;
+}
+
+.header li  a{
+  display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+.header li a:hover
+{
+	color: black;
+	font-weight: bold;
+}
+.title
+{
+   	float: left;
+   	font-size: 50px;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  
+}
+
+
+.footer
+{
+	background-color: #6b011f;
+	width: 100%;
+	height: 15%;
+}
+
+        .footerPages a
+        {
+          text-decoration: none;
+          color: white;
+        }
+        .footerPagesLinks button
+        {
+          height: 40px;
+          width: 40px;
+          background-color:#373a40;
+          border:1px solid #373a40;
+          border-radius: 10%;
+          margin: 5px;
+          
+        }
+        .footerPagesLinks
+        {
+        	float: right;
+        	margin-top: 30px;
+        	margin-right: 20px;
+        }
+        .footerPagesLinks i
+        {
+          color: white;
+          font-size: 25px;
+        }
+        .footerCopyRight
+        {
+          color: white; 
+          font-size: 15px;
+          float: right;
+          margin-left: 550px;
+        }
+        .footerCopyRight i
+        {
+          font-size: 15px;
+          color: white;
+          
+        }
+        .titleName
+        {
+        	float: left;
+        	color: white;
+        	font-size: 20px;
+        	margin-top: 40px;
+        	margin-left: 15px;
+        }
